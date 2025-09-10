@@ -5,19 +5,19 @@ class Gitgood < Formula
 
   on_macos do
     on_intel do
-      url "https://github.com/duhman/gitgood-cli/releases/download/v0.1.1/gitgood-cli-v0.1.1-macos-x64.tar.gz"
-      sha256 "63708712867f080fde8d3263de4e65a2418d1ce2d4842345a7fc745d94c3c84e"
+      url "https://github.com/duhman/gitgood-cli/releases/download/v0.1.2/gitgood-cli-v0.1.2-macos-x64.tar.gz"
+      sha256 "cb00db5eab9753d30212fdfd5203c7203a0e9c22bb3c870495a75c8e9c848515"
     end
     on_arm do
-      url "https://github.com/duhman/gitgood-cli/releases/download/v0.1.1/gitgood-cli-v0.1.1-macos-arm64.tar.gz"
-      sha256 "236391d68c4d991a17aeb32a68c81aa502864687362d609376750afc8f2f1b6d"
+      url "https://github.com/duhman/gitgood-cli/releases/download/v0.1.2/gitgood-cli-v0.1.2-macos-arm64.tar.gz"
+      sha256 "85e313f832567b7d8535d5445259503bdd37eaed4bc34feb12083698fb7fc7fd"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/duhman/gitgood-cli/releases/download/v0.1.1/gitgood-cli-v0.1.1-linux-x64.tar.gz"
-      sha256 "39422d91cfc3a83f7646e57ec00e2cf317c25734c9ccea519482d5b305059ae8"
+      url "https://github.com/duhman/gitgood-cli/releases/download/v0.1.2/gitgood-cli-v0.1.2-linux-x64.tar.gz"
+      sha256 "39429e5ba2c2c977168f1491089e07e69b31537716df33a34997f8e8202c8727"
     end
   end
 
