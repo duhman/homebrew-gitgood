@@ -25,12 +25,12 @@ class Gitgood < Formula
     libexec.install Dir["*"]
     (bin/"gitgood").write <<~EOS
       #!/bin/bash
-      exec node "{libexec}/dist/index.js" "$@"
+      exec node "#{libexec}/dist/index.js" "$@"
     EOS
     (bin/"gitgood").chmod 0755
   end
 
   test do
-    system "{bin}/gitgood", "--version"
+    system "#{bin}/gitgood", "--version"
   end
 end
